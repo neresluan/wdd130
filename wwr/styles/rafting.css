@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #07BEB8;
+    --secondary-color: #3DCCC7;
+    --accent1-color: #68D8D6;
+    --accent2-color: #9CEAEF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 100;
+}
+h2 {
+    font-weight: 100;
+}
+header nav a {
+    text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+article {
+    position: absolute;
+    top: 60%;
+    margin: 10%;
+    padding: 1%;
+    background-color: rgba(30, 187, 192, 0.5);
+    color: white;
+    text-align: left;
+}
+.customers{
+    float: right;
+    box-shadow: 0 0 30px gray;
+}
